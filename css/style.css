@@ -75,6 +75,12 @@ header {
     bottom: 18%;
 }
 
+@media screen and (max-width: 39.9375em) {
+	.banner {
+		bottom: 19%;
+	}
+}
+
 @media screen and (min-width: 64em) {
 	.banner {
 		left: 5%;
