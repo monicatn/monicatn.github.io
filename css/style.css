@@ -95,6 +95,12 @@ nav {
 	z-index: 1;
 }
 
+@media screen and (max-width: 39.9375em) {
+	nav {
+		position: fixed;
+	}
+}
+
 @media screen and (min-width: 40em) {
 	nav {
 		background-color: #edf2f1;
