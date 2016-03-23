@@ -407,4 +407,10 @@ nav ul li a:hover {
 	}
 }
 
+@media screen and (min-width: 64em) {
+	.resume {
+		margin-left: 55px;
+	}
+}
+
 
