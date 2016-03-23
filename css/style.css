@@ -281,14 +281,9 @@ nav ul li a:hover {
 	}
 }
 
-.center-img {
-	display: block;
-    margin-left: auto;
-    margin-right: auto; 
-}
-
 @media screen and (max-width: 39.9375em) {
 	.center-img {
+		display: block;
 		margin: 20px auto;
 	}
 }
@@ -299,21 +294,62 @@ nav ul li a:hover {
 	}
 }
 
+.design img, 
+.illustration img {
+	border: 28px solid #fff;
+}
+
+@media screen and (min-width: 64em) {
+	.design img,
+	.illustration img {
+		margin: 0 100px 40px 100px;
+	}
+}
+
+@media screen and (min-width: 64em) {
+	.design-projects {
+    	margin: 65px 0 0 180px !important;
+	    border-left: 15px solid #e3a48d;
+    }
+
+	.illustration-projects {
+    	margin: 65px 0 0 180px !important;
+	    border-left: 15px solid #fcdf68;
+    }
+}
+
+@media screen and (min-width: 64em) {
+	.project-right {
+    	margin: 0;
+    }
+
+    .project-left {
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (min-width: 64em) {
+	.design .column,
+	.illustration .column {
+		width: 40% !important;
+	}
+}
+
 /* About */
 
-.about-top {
+.about {
 	padding: 50px 0;
 }
 
 @media screen and (max-width: 39.9375em) {
-	.about-top {
+	.about {
 		padding: 30px 0 0 0;
 	}
 }
 
 #about-description-1 {
 	font-size: 28px;
-	text-align: right;
+	text-align: left;
 	line-height: 46px;
 }
 
@@ -326,7 +362,7 @@ nav ul li a:hover {
 
 @media screen and (min-width: 64em) {
 	#about-description-1 {
-    	padding-left: 70px;
+    	padding-left: 95px;
     }
 }
 
@@ -373,41 +409,19 @@ nav ul li a:hover {
 	}
 }
 
+@media screen and (min-width: 64em) {
+	.contact {
+    	padding-left: 95px;
+    }
+}
+
 .resume a {
 	color: #e3a48d;
 }
 
-@media screen and (min-width: 64em) {
-	.contact {
-    	margin-left: 45px !important;
-    }
-}
-
-.design img, 
-.illustration img {
-	border: 28px solid #fff;
-}
-
-@media screen and (min-width: 64em) {
-	.design-projects {
-    	margin: 65px 0 0 180px !important;
-	    border-left: 15px solid #e3a48d;
-    }
-
-	.illustration-projects {
-    	margin: 65px 0 0 180px !important;
-	    border-left: 15px solid #fcdf68;
-    }
-}
-
-@media screen and (min-width: 64em) {
-	.project-right {
-    	margin: 0;
-    }
-
-    .project-left {
-		margin-bottom: 50px;
-	}
+.about-img {
+	display: block;
+	margin: 20px auto;
 }
 
 
