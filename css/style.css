@@ -419,9 +419,16 @@ nav ul li a:hover {
 	color: #e3a48d;
 }
 
-.about-img {
-	display: block;
-	margin: 20px auto;
+@media screen and (min-width: 64em) {
+	.about-img {
+		margin-left: -75px;
+	}
+}
+
+@media screen and (max-width: 39.9375em) {
+	.about-img {
+		margin-bottom: 20px;
+	}
 }
 
 
