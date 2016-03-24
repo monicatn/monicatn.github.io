@@ -66,27 +66,6 @@ header {
 	}
 }
 
-.banner {
-	background: url(../img/banner.png) no-repeat center center;
-    background-size: contain;
-    height: 21%;
-    width: 100%;
-    position: relative;
-    bottom: 18%;
-}
-
-@media screen and (max-width: 39.9375em) {
-	.banner {
-		bottom: 19%;
-	}
-}
-
-@media screen and (min-width: 64em) {
-	.banner {
-		left: 5%;
-	}
-}
-
 /* Navigation */
 
 nav {
