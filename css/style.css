@@ -371,6 +371,11 @@ nav ul li a {
 	}
 }
 
+.about-img {
+	height: 300px;
+	width: 300px;
+}
+
 @media screen and (min-width: 64em) {
 	.about-img {
 		margin-left: 75px;
