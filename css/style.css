@@ -132,8 +132,10 @@ nav ul li a {
 	text-transform: uppercase;
 }
 
-nav ul li a:hover {
-	color: #edf2f1;
+@media screen and (min-width: 40em) {
+	nav ul li a:hover {
+		color: #edf2f1;
+	}
 }
 
 #link1 {
@@ -314,21 +316,21 @@ nav ul li a:hover {
 	}
 }
 
-#about-description-1 {
+#about-description {
 	font-size: 28px;
 	text-align: left;
 	line-height: 46px;
 }
 
 @media screen and (max-width: 39.9375em) {
-	#about-description-1 {
+	#about-description {
 		font-size: 14px;
 		text-align: center;
 	}
 }
 
 @media screen and (min-width: 64em) {
-	#about-description-1 {
+	#about-description {
     	margin-left: 150px;
     }
 }
@@ -340,7 +342,6 @@ nav ul li a:hover {
 }
 
 .contact {
-	color: #e3a48d;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -358,8 +359,16 @@ nav ul li a:hover {
     	}
 }
 
-.resume a {
+.resume a,
+.email a {
 	color: #e3a48d;
+}
+
+@media screen and (min-width: 40em) {
+	.resume a:hover,
+	.email a:hover {
+		color: #edf2f1;
+	}
 }
 
 @media screen and (min-width: 64em) {
