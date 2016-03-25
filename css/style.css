@@ -176,10 +176,10 @@ nav ul li a {
 
 .intro-text {
 	font-family: 'Libre Baskerville', serif;
-	font-size: 36px;
+	font-size: 18px;
 	color: #fff;
 	margin-bottom: 0;
-	margin-left: 20px;
+	margin-left: 22%;
 	padding: 35px 0;
 }
 
@@ -317,7 +317,7 @@ nav ul li a {
 }
 
 #about-description {
-	font-size: 28px;
+	font-size: 18px;
 	text-align: left;
 	line-height: 46px;
 }
@@ -332,6 +332,7 @@ nav ul li a {
 @media screen and (min-width: 64em) {
 	#about-description {
     	margin-left: 150px;
+    	margin-top: 40px;
     }
 }
 
