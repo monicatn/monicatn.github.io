@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Gotham';
-       url('gotham-light.ttf')  format('truetype'), /* Safari, Android, iOS */
+	font-family: 'Gotham';
+    url('gotham-light.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
 body, html {
@@ -46,7 +46,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #7bc3d1;
+	color: #3ac1c3;
 }
 ul, ol {
 	list-style: none;
@@ -78,7 +78,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #7bc3d1;
+	background: #3ac1c3;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -124,13 +124,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #7bc3d1;
+	color: #3ac1c3;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #7bc3d1;
+	color: #3ac1c3;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -164,8 +164,8 @@ hr {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #7bc3d1;
-	border-color: #7bc3d1;
+	background-color: #3ac1c3;
+	border-color: #3ac1c3;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -179,7 +179,7 @@ hr {
 	text-align: center;
 	color: #fff;
 	background: url(../img/intro-bg.jpg) no-repeat center top;
-	background-color: #7bc3d1;
+	background-color: #3ac1c3;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -209,7 +209,7 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: #7bc3d1;
+	background: #3ac1c3;
 }
 #skills h2 {
 	color: #fff;
@@ -275,7 +275,7 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	background: #7bc3d1;
+	background: #3ac1c3;
 	color: #fff;
 	padding: 6px 14px;
 }
@@ -387,7 +387,7 @@ ol.type li a:hover {
 /* Achivements Section */
 #achievements {
 	padding: 100px 0;
-	background: #7bc3d1;
+	background: #3ac1c3;
 }
 #achievements h2 {
 	color: #fff;
@@ -517,7 +517,7 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #7bc3d1;
+	background: #3ac1c3;
 }
 #contact h2 {
 	color: #fff;
@@ -634,7 +634,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #a0a5a5;
 }
 #footer a:hover {
-	color: #7bc3d1;
+	color: #3ac1c3;
 }
 
 /* Media Queries */
