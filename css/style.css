@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Gotham";
-    src: url("fonts/GothamLight.ttf") format("truetype");/* TTF file for CSS3 browsers */
+    src: url("fonts/GothamLight.woff") format('woff'); 
+		url("fonts/GothamLight.ttf") format('truetype');
 }
 
 body, html {
