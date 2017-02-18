@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Gotham';
-    url('gotham-light.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('gotham-light.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 body, html {
@@ -651,13 +651,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro .name {
 	font-weight: 600;
-	text-transform: uppercase;
 }
 .intro .intro-text {
 	max-width: 75%;
 }
 .intro .intro-text p {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Gotham', sans-serif;
 	font-size: 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
