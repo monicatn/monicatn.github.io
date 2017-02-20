@@ -539,6 +539,10 @@ ol.type li a:hover {
 	color: #E87E04;
 	text-align: left;
 }
+#contact a:hover,
+#contact a:visited {
+	color: #fff;
+}
 label {
 	font-size: 12px;
 	font-weight: 400;
