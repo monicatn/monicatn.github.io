@@ -384,134 +384,17 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
-/* Achivements Section */
-#achievements {
-	padding: 100px 0;
-	background: #3ac1c3;
+/* Pretty Photo */
+.pp_expand {
+	display: none !important;
 }
-#achievements h2 {
-	color: #fff;
+div.pp_default .pp_nav .pp_play, 
+div.pp_default .pp_nav .pp_pause {
+	display: none;
 }
-#achievements hr {
-	background: rgba(255,255,255,0.3);
-}
-.achievement-box h4 {
-	color: #fff;
-	font-size: 20px;
-	font-weight: 400;
-	margin-left: 5px;
-}
-.achievement-box span.count {
-	font-size: 52px;
-	font-weight: 600;
-	display: block;
-	color: #121d1f;
-	padding: 0;
-	margin: 0;
-}
-/* Resume Section */
-#resume {
-	padding: 100px 0;
-	background: #f6f6f6;
-}
-.timeline {
-	position: relative;
-	padding: 0;
-	list-style: none;
-}
-.timeline:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 40px;
-	width: 2px;
-	margin-left: -1.5px;
-	background-color: #eee;
-}
-.timeline>li {
-	position: relative;
-	margin-bottom: 50px;
-	min-height: 50px;
-}
-.timeline>li:before, .timeline>li:after {
-	content: " ";
-	display: table;
-}
-.timeline>li:after {
-	clear: both;
-}
-.timeline>li .timeline-panel {
-	float: right;
-	position: relative;
-	width: 100%;
-	padding: 0 20px 0 100px;
-	text-align: left;
-}
-.timeline>li .timeline-panel:before {
-	right: auto;
-	left: -15px;
-	border-right-width: 15px;
-	border-left-width: 0;
-}
-.timeline>li .timeline-panel:after {
-	right: auto;
-	left: -14px;
-	border-right-width: 14px;
-	border-left-width: 0;
-}
-.timeline>li .timeline-image {
-	z-index: 100;
-	position: absolute;
-	left: 0;
-	width: 70px;
-	height: 70px;
-	margin-left: 0;
-	border: 1px solid #eee;
-	border-radius: 100%;
-	text-align: center;
-	background: #fff;
-}
-.timeline>li .timeline-image h4 {
-	margin-top: 20px;
-	font-size: 14px;
-	text-transform: uppercase;
-}
-.timeline>li.timeline-inverted>.timeline-panel {
-	float: right;
-	padding: 0 20px 0 100px;
-	text-align: left;
-}
-.timeline>li.timeline-inverted>.timeline-panel:before {
-	right: auto;
-	left: -15px;
-	border-right-width: 15px;
-	border-left-width: 0;
-}
-.timeline>li.timeline-inverted>.timeline-panel:after {
-	right: auto;
-	left: -14px;
-	border-right-width: 14px;
-	border-left-width: 0;
-}
-.timeline>li:last-child {
-	margin-bottom: 40px;
-}
-.timeline .timeline-heading h4 {
-	margin-top: 0;
-	text-transform: uppercase;
-	font-size: 16px;
-}
-.timeline .timeline-heading h2 {
-	margin-top: 30px;
-}
-.timeline .timeline-heading h4.subheading {
-	text-transform: none;
-	color: #629ca7;
-	font-size: 20px;
-}
-.timeline .timeline-body>p, .timeline .timeline-body>ul {
-	margin-bottom: 0;
+.pp_nav {
+    float: none !important;
+    margin: 5px auto !important;
 }
 /* Contact Section */
 #contact {
