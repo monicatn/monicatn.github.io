@@ -183,8 +183,8 @@ hr {
 	height: auto;
 	padding: 100px 0;
 	text-align: center;
-	color: #fff;
-	background: url("img/home.png");
+	color: #121d1f;
+	background: url("../img/home.png");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
