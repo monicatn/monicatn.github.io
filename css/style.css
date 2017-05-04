@@ -500,7 +500,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	height: 100%;
 	padding: 0;
 	text-align: left;
-	color: #fff;
+	color: #121d1f;
 }
 .intro H1 {
 	font-size: 60px;
@@ -514,7 +514,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	max-width: 75%;
 }
 .intro .intro-text p {
-	font-family: 'Gotham', sans-serif;
+	font-family: MaisonNeue-Mono;
 	font-size: 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
