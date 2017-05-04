@@ -1,10 +1,4 @@
 @font-face {
-    font-family: "Gotham";
-    src: url("fonts/GothamLight.woff") format('woff'); 
-		url("fonts/GothamLight.ttf") format('truetype');
-}
-
-@font-face {
     font-family: MaisonNeue-Mono;
     src: url("fonts/maisonneuemono.ttf") format('truetype');
 }
@@ -13,7 +7,7 @@ body, html {
 	font-family: 'Gotham', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #656c6d;
+	color: #282824;
 	width: 100% !important;
 	height: 100% !important;
 }
@@ -183,7 +177,7 @@ hr {
 	height: auto;
 	padding: 100px 0;
 	text-align: center;
-	color: #121d1f;
+	color: #282824;
 	background: url("../img/home.png");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -201,6 +195,9 @@ hr {
 	padding: 100px 0;
 	background: #f6f6f6;
 }
+#about h2 {
+	color: #3cc1cf;
+}
 #about .about-text {
 	margin-left: 10px;
 }
@@ -214,51 +211,6 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
-/* Skills Section */
-#skills {
-	padding: 100px 0;
-	background: #3ac1c3;
-}
-#skills h2 {
-	color: #fff;
-}
-#skills hr {
-	background: rgba(255,255,255,0.3);
-}
-#skills .skill {
-	margin-bottom: 40px;
-	text-align: center;
-	padding: 0px;
-}
-#skills .skill h4 {
-	font-weight: 600;
-	color: #fff;
-}
-.chart {
-	position: relative;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	margin-bottom: 26px;
-	text-align: center;
-}
-.chart canvas {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-.percent {
-	display: inline-block;
-	font-size: 21px;
-	color: #121d1f;
-	line-height: 152px;
-	z-index: 2;
-}
-.percent:after {
-	content: '%';
-	margin-left: 0.1em;
-	font-size: .8em;
-}
 /* Portfolio Section */
 #portfolio {
 	padding: 80px 0;
@@ -270,6 +222,9 @@ hr {
 	background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
+}
+#portfolio h2 {
+	color: #282824;
 }
 .categories {
 	padding-bottom: 30px;
@@ -283,7 +238,7 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	background: #3ac1c3;
+	background: #f9b719;
 	color: #fff;
 	padding: 6px 14px;
 }
