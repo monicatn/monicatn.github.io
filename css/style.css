@@ -14,6 +14,7 @@ body, html {
 }
 h1 {
 	font-weight: 700;
+	font-family: 'Anonymous Pro', monospace;
 }
 h1 strong {
 	font-weight: 900;
@@ -25,16 +26,19 @@ h2 {
 	font-weight: 400;
 	margin-bottom: 30px;
 	font-size: 34px;
+	font-family: 'Anonymous Pro', monospace;
 }
 h3, h4 {
 	color: #121d1f;
 	font-size: 20px;
 	font-weight: 600;
+	font-family: 'Anonymous Pro', monospace;
 }
 h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
+	font-family: 'Anonymous Pro', monospace;
 }
 p.intro {
 	font-size: 16px;
@@ -83,46 +87,6 @@ hr {
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
-}
-#return-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    display: none;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-#return-to-top i {
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-#return-to-top:hover {
-    background: rgba(0, 0, 0, 0.9);
-}
-#return-to-top:hover i {
-    color: #fff;
-    top: 5px;
 }
 /* Navigation */
 #nav {
@@ -226,7 +190,7 @@ hr {
 	-o-background-size: cover;
 }
 .intro h1 {
-	font-family: MaisonNeue-Mono;
+	font-family: 'Anonymous Pro', monospace;
 }
 .section-title.center {
 	padding: 25px 0 45px 0;
@@ -507,7 +471,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	max-width: 75%;
 }
 .intro .intro-text p {
-	font-family: MaisonNeue-Mono;
+	font-family: 'Anonymous Pro', monospace;
 	font-size: 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
