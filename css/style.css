@@ -4,6 +4,11 @@
 		url("fonts/GothamLight.ttf") format('truetype');
 }
 
+@font-face {
+    font-family: MaisonNeue-Mono;
+    src: url("fonts/maisonneuemono.ttf") format('truetype');
+}
+
 body, html {
 	font-family: 'Gotham', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -184,6 +189,9 @@ hr {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+}
+.intro h1 {
+	font-family: MaisonNeue-Mono;
 }
 .section-title.center {
 	padding: 25px 0 45px 0;
