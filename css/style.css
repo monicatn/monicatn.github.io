@@ -1,6 +1,7 @@
 @font-face {
     font-family: MaisonNeue-Mono;
-    src: url("fonts/maisonneuemono.ttf") format('truetype');
+    src: url("fonts/Maison-Neue.woff") format('woff');  
+    	 url("fonts/maisonneuemono.ttf") format('truetype');
 }
 
 body, html {
