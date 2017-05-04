@@ -179,7 +179,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background-color: #3ac1c3;
+	background: url("img/home.png");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
