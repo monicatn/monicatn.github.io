@@ -184,7 +184,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #282824;
-	background: url("../img/home.png");
+	background: url("../img/home.png") center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
