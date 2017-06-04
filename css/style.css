@@ -217,8 +217,9 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 60px;
 	font-size: 20px;
-	line-height: 24px;
+	line-height: 28px;
 	max-width: 700px;
+	color: #343d3d;
 }
 
 /* Portfolio Section */
@@ -227,7 +228,8 @@ hr {
 	background: #f6f6f6;
 }
 #portfolio h2 {
-	color: #282824;
+	color: #343d3d;
+	line-height: 32px;
 }
 .categories {
 	padding-bottom: 30px;
